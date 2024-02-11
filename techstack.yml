@@ -1,0 +1,183 @@
+repo_name: hakanai/mastodon4j
+report_id: 5809ad95384c9b8db38fe9fbcf283661
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-11T01:33:25+00:00'
+requested_by: sys1yagi
+provider: github
+branch: master
+detected_tools_count: 14
+tools:
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/hakanai/mastodon4j
+  detection_source: Repo Metadata
+- name: RxJava
+  description: Reactive Extensions for the JVM
+  website_url: https://github.com/ReactiveX/RxJava
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2190/6407041.png
+  detection_source_url: https://github.com/hakanai/mastodon4j/blob/master/mastodon4j-rx/build.gradle
+  detection_source: mastodon4j-rx/build.gradle
+  last_updated_by: Toshihiro Yagi
+  last_updated_on: 2017-04-22 01:58:21.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hakanai/mastodon4j
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/hakanai/mastodon4j/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Toshihiro Yagi
+  last_updated_on: 2017-04-22 01:58:21.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  version: 2.7.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/hakanai/mastodon4j/blob/master/mastodon4j-rx/build.gradle
+  detection_source: mastodon4j-rx/build.gradle
+  last_updated_by: Toshihiro Yagi
+  last_updated_on: 2017-04-25 03:46:11.000000000 Z
+- name: wercker
+  description: Build, test, and deploy container-native applications
+  website_url: http://wercker.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/897/S67KcxKE.png
+  detection_source_url: https://github.com/hakanai/mastodon4j/blob/master/wercker.yml
+  detection_source: wercker.yml
+  last_updated_by: Toshihiro Yagi
+  last_updated_on: 2017-04-22 10:59:16.000000000 Z
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/mastodon4j/blob/master/mastodon4j/build.gradle
+  detection_source: mastodon4j/build.gradle
+  last_updated_by: Toshihiro Yagi
+  last_updated_on: 2017-04-22 01:58:21.000000000 Z
+- name: com.squareup.okhttp3:mockwebserver
+  description: 'Null'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/mastodon4j/blob/master/mastodon4j-rx/build.gradle
+  detection_source: mastodon4j-rx/build.gradle
+  last_updated_by: Toshihiro Yagi
+  last_updated_on: 2017-04-25 03:46:11.000000000 Z
+- name: com.squareup.okhttp3:okhttp
+  description: 'Null'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/mastodon4j/blob/master/mastodon4j/build.gradle
+  detection_source: mastodon4j/build.gradle
+  last_updated_by: Toshihiro Yagi
+  last_updated_on: 2017-04-22 01:58:21.000000000 Z
+- name: io.reactivex.rxjava2:rxjava
+  description: Reactive Extensions for Java
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/mastodon4j/blob/master/mastodon4j-rx/build.gradle
+  detection_source: mastodon4j-rx/build.gradle
+  last_updated_by: Toshihiro Yagi
+  last_updated_on: 2017-04-22 01:58:21.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: '4.12'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/mastodon4j/blob/master/mastodon4j-rx/build.gradle
+  detection_source: mastodon4j-rx/build.gradle
+  last_updated_by: Toshihiro Yagi
+  last_updated_on: 2017-04-25 03:46:11.000000000 Z
+  vulnerabilities:
+  - name: TemporaryFolder on unix-like systems does not limit access to created files
+    cve_id: CVE-2020-15250
+    cve_url: https://github.com/advisories/GHSA-269g-pwp5-87pp
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: org.jetbrains.kotlin:kotlin-stdlib-jre7
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/mastodon4j/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Toshihiro Yagi
+  last_updated_on: 2017-08-18 02:12:19.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-stdlib-jre8
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/mastodon4j/blob/master/sample-kotlin/build.gradle
+  detection_source: sample-kotlin/build.gradle
+  last_updated_by: Toshihiro Yagi
+  last_updated_on: 2017-04-26 13:12:26.000000000 Z
+- name: org.mockito:mockito-core
+  description: Mockito mock objects library core API and implementation
+  version: 2.7.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/mastodon4j/blob/master/mastodon4j-rx/build.gradle
+  detection_source: mastodon4j-rx/build.gradle
+  last_updated_by: Toshihiro Yagi
+  last_updated_on: 2017-04-25 03:46:11.000000000 Z
